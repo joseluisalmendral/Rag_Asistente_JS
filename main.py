@@ -13,7 +13,7 @@ if not openai.api_key:
 def query_rag(query, limit=5):
     """
     Realiza una consulta en la colección de Qdrant utilizando el embedding de la consulta,
-    recupera fragmentos relevantes y genera una respuesta utilizando GPT-4 de OpenAI.
+    recupera fragmentos relevantes y genera una respuesta utilizando GPT-4o de OpenAI.
     
     Parámetros:
       query (str): Consulta realizada por el usuario.
