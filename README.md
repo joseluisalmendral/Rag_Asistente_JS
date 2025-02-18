@@ -75,10 +75,11 @@ QDRANT_ENDPOINT=tu_endpoint_qdrant
 ```
 
 ### 🔹 **4. Ingestar los documentos**
+Abrimos una terminal en la raiz del proyecto y ejecutamos:
 ```bash
 python main.py
 ```
-Si el sistema detecta nuevos documentos en `temario/`, los procesará automáticamente.
+Si el sistema detecta nuevos documentos que no se encuentren en nuestra base de datos pero si en `temario/`, los procesará automáticamente.
 
 ### 🔹 **5. Realizar Consultas**
 Al ejecutar `main.py`, el sistema estará listo para recibir consultas desde la terminal.
