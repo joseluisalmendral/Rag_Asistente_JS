@@ -6,20 +6,22 @@ Este proyecto implementa un **sistema RAG (Retrieval-Augmented Generation)** dis
 El sistema permite a los alumnos realizar consultas sobre el temario y recibir respuestas basadas en contenido relevante previamente indexado en una base de datos vectorial.
 
 ## 🚀 Tecnologías Utilizadas
-### 1️⃣ **LangChain**
+### 1️⃣ **[LangChain](https://python.langchain.com/docs/introduction/)**
 - **¿Qué es?** Un framework para construir aplicaciones de IA con capacidad de razonamiento y recuperación de información.
 - **Ventajas:**
   - Facilita la carga y procesamiento de documentos en distintos formatos.
   - Permite dividir el contenido en fragmentos óptimos para la búsqueda y generación de respuestas.
 
-### 2️⃣ **Qdrant** (Base de Datos Vectorial)
+### 2️⃣ **[Qdrant](https://qdrant.to/cloud)** (Base de Datos Vectorial)
 - **¿Qué es?** Un motor de búsqueda vectorial para almacenar y recuperar embeddings de manera eficiente.
 - **Ventajas:**
   - Altamente optimizado para búsquedas semánticas.
   - Soporta indexación eficiente de grandes volúmenes de datos.
   - Compatible con múltiples modelos de embeddings.
 
-### 3️⃣ **OpenAI GPT-4o**
+(se pueden utilizar otras bases de datos vectoriales como Pinecone, Elasticsearch o Redis)
+
+### 3️⃣ **[OpenAI GPT-4o](https://openai.com/index/hello-gpt-4o/)**
 - **¿Qué es?** Un modelo de lenguaje avanzado de OpenAI utilizado para generar respuestas basadas en la consulta del usuario.
 - **Ventajas:**
   - Capacidad de generar respuestas precisas y contextualizadas.
@@ -62,6 +64,7 @@ cd proyecto-rag
 ```bash
 pip install -r requirements.txt
 ```
+#### Adicionalmente, crear una cuenta de OPEN AI Playground y Qdrant en caso de no contar con una.
 
 ### 🔹 **3. Configurar Variables de Entorno**
 Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
