@@ -13,6 +13,8 @@ datos/extractos/
 # archivos explicativos irrelevantes para el repo
 priv/
 
+**/.DS_Store
+
 # C extensions
 *.so
 
