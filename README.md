@@ -87,11 +87,3 @@ Al ejecutar `main.py`, el sistema estará listo para recibir consultas desde la 
 USER --> ¿Cómo funciona el hoisting en JavaScript?
 CHAT --> En JavaScript, el hoisting es un comportamiento donde las declaraciones de variables y funciones se mueven al principio de su contexto de ejecución...
 ```
-
-## 🛠 Posibles Mejoras
-✅ Implementar un frontend con **React** para hacer consultas vía web.
-✅ Incluir soporte para otros lenguajes de programación en el temario.
-✅ Agregar más modelos de embeddings para mejorar la precisión de las respuestas.
-
-
-
